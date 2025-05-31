@@ -7,7 +7,7 @@
       <div class="details">
         <h2>Resultado del Análisis 🧠</h2>
         <ul>
-          <li>
+          <!--    <li>
             <span class="icon-item">📐</span>
             <strong>Resolución original:</strong>
             {{ resultado.originalWidth }} × {{ resultado.originalHeight }} px
@@ -16,7 +16,8 @@
             <span class="icon-item">📏</span>
             <strong>Redimensionada a:</strong>
             {{ resultado.resizedWidth }} × {{ resultado.resizedHeight }} px
-          </li>
+          </li> -->
+      
 
           <!-- Mostrar análisis si existe -->
           <li v-if="analisis">
